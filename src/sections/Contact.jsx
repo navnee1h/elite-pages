@@ -3,7 +3,7 @@ import herobg from "../assets/herobg.png";
 import { GoArrowUpRight } from "react-icons/go";
 const Contact = () => {
   return (
-    <section className="relative p-10">
+    <section className="relative p-10 max-w-[1920px] mx-auto overflow-hidden">
       <div>
         <img
           src={herobg}
@@ -11,12 +11,12 @@ const Contact = () => {
           className="w-full h-full absolute inset-0 -z-10 object-cover"
         />
       </div>
-      <div className="grid grid-cols-3 gap-12  py-20 max-xl:gap-0">
+      <div className="grid grid-cols-3 gap-12  py-20 max-xl:gap-0 xl:mx-48">
         <div className="col-span-2 w-[90%]  max-lg:col-span-4 max-lg:max-w-full">
           <h2 className="text-5xl text-[#cd1310] max-xl:text-3xl ">
             Elite Insigna, Apartments In{" "}
           </h2>
-          <br />
+          <br className="max-xl:hidden" />
           <p className="text-5xl text-[#cd1310] max-xl:text-3xl">
             Thrissur Of Quality And Comfort
           </p>
